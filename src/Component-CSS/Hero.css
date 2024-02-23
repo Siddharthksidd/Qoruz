@@ -1,0 +1,91 @@
+.hero {
+  background-color: #200d00;
+  box-sizing: border-box;
+  padding: 48px 24px;
+  justify-items: center;
+  width: 100%;
+}
+
+.hero h3 {
+  color: #ff6435;
+  font-family: "Articulat CF";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+  margin: 0;
+}
+
+.hero h2 {
+  color: #ffffff;
+  font-family: "Articulat CF";
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 48px;
+}
+
+.herotitle {
+  max-width: 342px;
+  margin: auto;
+  max-width: 1280px;
+}
+
+.heropara {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff80;
+  margin: auto;
+  max-width: 1280px;
+}
+
+.heropara span {
+  color: #ff6435;
+  text-decoration: underline;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .hero {
+    padding: 48px 24px;
+  }
+
+  .hero h3 {
+    padding-bottom: 4px;
+    margin: 0;
+    font-family: "Articulat CF";
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+    text-align: center;
+  }
+
+  .hero h2 {
+    margin: 0;
+    font-family: "Articulat CF";
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 42px;
+    letter-spacing: -0.02em;
+    text-align: center;
+  }
+
+  .herotitle {
+    max-width: 342px;
+    margin: auto;
+  }
+
+  .heropara {
+    display: none;
+  }
+}

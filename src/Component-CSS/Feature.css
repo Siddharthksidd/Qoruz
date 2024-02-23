@@ -1,0 +1,75 @@
+.feature {
+  /* margin: 0px 160px 80px; */
+  margin: auto;
+  padding: 0px 160px 80px;
+  align-self: center;
+  max-width: 800px;
+}
+
+.feature h3 {
+  font-family: "Articulat CF";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #ff6435;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.feature h2 {
+  font-family: "Articulat CF";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #200d00;
+  margin-bottom: 8px;
+}
+
+.feature p {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #4d3d33;
+  /* max-width: 800px; */
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .feature {
+    padding: 48px 24px;
+    min-width: 342px;
+  }
+
+  .feature h3 {
+    font-family: "Articulat CF";
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+    text-align: center;
+  }
+
+  .feature h2 {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+    text-align: center;
+  }
+
+  .feature p {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+}

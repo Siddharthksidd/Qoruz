@@ -1,0 +1,15 @@
+.imgsec {
+  padding: 0px 160px 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .imgsec {
+    padding: 24px;
+    padding-bottom: 48px;
+    flex-direction: column;
+  }
+}

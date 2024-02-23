@@ -1,0 +1,29 @@
+.infotag {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0 4px;
+}
+
+.infotag img {
+  width: 16px;
+}
+
+.infodetail {
+  font-family: "Inter";
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: 4D3D33 !important;
+  padding: 0 !important;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .infodetail {
+    font-weight: 500;
+    font-size: 12px;
+    color: #4d3d33;
+  }
+}

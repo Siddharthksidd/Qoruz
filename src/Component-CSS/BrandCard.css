@@ -1,0 +1,219 @@
+.BrandCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 17px;
+  max-width: 1280px;
+  padding: 24px 24px 28px 24px;
+  border-bottom: 1px solid #99999933;
+}
+
+.branddetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.tag {
+  display: flex;
+  gap: 8px;
+  padding-bottom: 8px;
+}
+
+.info {
+  display: flex;
+}
+
+.infotag img {
+  width: 12px;
+  height: 12px;
+}
+
+.postbtn button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brandlogo {
+  position: relative;
+}
+.brandlogo img {
+  width: 50px;
+}
+
+.badge img {
+  position: absolute;
+  width: 19px;
+  top: 31px;
+  right: -10px;
+}
+
+.branddetails h3 {
+  font-family: "Articulat CF";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  padding-bottom: 8px;
+}
+
+.branddetails p {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 16px;
+  color: #4d3d33;
+  margin-bottom: 8px;
+}
+
+.info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0 16px;
+}
+
+.postbtn button {
+  border: 1px solid #99999933;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #200d00;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  min-width: 112px;
+}
+
+.postbtn img {
+  width: 18px;
+  color: black;
+  padding-left: 8px;
+}
+
+.cardwrap {
+  display: flex;
+  justify-content: flex-start;
+  gap: 17px;
+}
+
+.mobileemp {
+  display: none;
+}
+.desktophide {
+  display: none;
+}
+.mobilehide {
+  display: inline;
+}
+
+.BrandCard:last-child {
+  border-bottom: none;
+  margin-bottom: 0px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .BrandCard {
+    flex-direction: column;
+    padding: 24px;
+    border-radius: 24px;
+    box-shadow: 0px 1px 3px 0px #00000026;
+    margin-bottom: 28px;
+  }
+
+  .brandlogo img {
+    display: none;
+  }
+  .badge {
+    display: none;
+  }
+
+  .branddetails h3 {
+    font-size: 20px;
+    padding-bottom: 4px;
+  }
+  .mobileemp {
+    display: block;
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4d3d33;
+  }
+  .mobileemp img {
+    display: none;
+  }
+
+  .tag {
+    flex-direction: column;
+    width: fit-content;
+    margin: 4px;
+    gap: 8px;
+  }
+  .branddetails p {
+    font-size: 16px;
+  }
+
+  .modileinfohide {
+    display: none;
+  }
+
+  .cardwrap {
+    gap: 0px;
+  }
+
+  .info {
+    padding-bottom: 8px;
+  }
+  .postbtn {
+    width: 100%;
+  }
+  .postbtn button {
+    margin-top: 16px;
+    color: white;
+    background-color: #ff6435;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .postbtn img {
+    color: white;
+  }
+  .desktophide {
+    display: block;
+  }
+  .mobilehide {
+    display: none;
+  }
+
+  .barandtitle {
+    display: flex;
+    gap: 8px;
+  }
+
+  .mobbrandlogo img {
+    width: 70px;
+  }
+
+  /* .mobileemp h3 {
+    font-family: Articulat CF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  } */
+}

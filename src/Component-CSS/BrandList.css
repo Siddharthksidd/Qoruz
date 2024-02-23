@@ -1,0 +1,9 @@
+.Brandcards {
+  padding: 48px 80px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .Brandcards {
+    padding: 24px;
+  }
+}

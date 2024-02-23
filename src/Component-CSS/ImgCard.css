@@ -1,0 +1,49 @@
+.Imgcard {
+  max-width: 350px;
+  padding: 0;
+  border-radius: 16px;
+  border: 1px solid #99999933;
+}
+
+.cardimg img {
+  max-width: 350px;
+}
+
+.imgdetail {
+  margin: 24px;
+}
+.imgdetail p {
+  font-family: "Articulat CF";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #200d00;
+}
+
+.expbtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border: none;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #200d00;
+  margin: 24px;
+}
+
+.expbtn img {
+  width: 24px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .Imgcard {
+    max-width: 342px;
+  }
+}

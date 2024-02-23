@@ -1,0 +1,36 @@
+.accordion {
+  padding: 8px 0px 8px;
+  margin: auto;
+  margin-bottom: 22px;
+  border-bottom: 1px solid #e2d4f9;
+  width: 100%;
+}
+
+.accordion-title {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: #ff6435;
+  display: flex;
+  align-items: center;
+}
+.accordion-title img {
+  width: 12px;
+  padding: 16px;
+}
+
+.accordion-content {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  padding-left: 0px;
+}

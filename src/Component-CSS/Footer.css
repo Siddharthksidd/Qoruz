@@ -1,0 +1,196 @@
+footer {
+  background-color: #200d00;
+  padding: 48px 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: white;
+}
+
+.footertop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-grow: 1;
+  margin: auto;
+  border-bottom: 1px solid #ffffff33;
+  margin-bottom: 48px;
+  width: 100%;
+}
+.qoruzdetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 313px;
+  /* padding-right: 281px; */
+}
+
+.qoruzdetail img[alt="logo"] {
+  width: 132px;
+  height: 52.02px;
+  padding: 0 0 26px 0;
+}
+
+.qoruzdetail p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  padding-bottom: 26px;
+}
+
+.sociallink img {
+  width: 21.64px;
+  height: 22.99px;
+  padding-right: 18.93px;
+}
+
+.foot_menu h4 {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ff6435;
+}
+
+.foot_menu li {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  list-style-type: none;
+}
+
+.foot_menu h4 {
+  padding-bottom: 16px;
+}
+
+.foot_menu li {
+  line-height: 28.8px;
+}
+
+.fmenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-width: 526px;
+  padding: 24px;
+}
+
+.foot_copyright {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.foot_menu_mob {
+  display: none;
+}
+
+.desktopview {
+  display: block;
+}
+
+.foot_copyrightM {
+  display: none;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  footer {
+    padding: 22px 24px;
+    justify-content: center;
+  }
+
+  .qoruzdetail p {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+
+  .footertop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 0px;
+  }
+
+  .fmenu {
+    display: none;
+  }
+
+  .qoruzdetail img[alt="logo"] {
+    padding-bottom: 22px;
+  }
+
+  .qoruzdetail {
+    padding-right: 0px;
+  }
+
+  .sociallink {
+    display: none;
+  }
+
+  .qoruzdetail p {
+    padding-bottom: 22px;
+  }
+
+  .fmenu {
+    min-width: none;
+  }
+
+  .foot_menu_mob {
+    display: block;
+    padding-top: 22px;
+    width: 100%;
+    border-bottom: none;
+  }
+
+  .footertop {
+    border-bottom: none;
+  }
+
+  .sociallinkM {
+    display: flex;
+    gap: 16px;
+  }
+
+  .sociallinkM img {
+    width: 16px;
+  }
+
+  .foot_copyrightM {
+    padding: 24px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .foot_copyrightM p {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .desktopview {
+    display: none;
+  }
+}
